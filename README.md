@@ -45,9 +45,25 @@ https://borysovs.github.io/test-task-markify/
 
 ## Project Structure
 
-markify/ │ ├── css/ │ ├── main.css │ └── main.min.css │ ├── img/ │ ├── header/ │ ├── hero/ │ ├──
-partners/ │ └── services/ │ ├── js/ │ └── modal.js │ ├── index.html ├── README.md └──
-.browserslistrc
+markify/
+│
+├── css/
+│   ├── main.css
+│   └── main.min.css
+│
+├── img/
+│   ├── header/
+│   ├── hero/
+│   ├── partners/
+│   └── services/
+│
+├── js/
+│   └── modal.js
+│
+├── index.html
+├── README.md
+└── .browserslistrc
+
 
 css/: Contains the main CSS files for styling the web page. img/: Contains images used throughout
 the website. js/: Contains JavaScript files for additional functionality. index.html: The main HTML
