@@ -1,6 +1,5 @@
 .header {
   padding: 24px 0;
-
 }
 
 .header-container {
@@ -129,12 +128,12 @@
     padding: 36px 0;
     display: block;
     transition: color var(--transition-dur-and-func);
-     &:hover,
-    &:focus{
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
     }
   }
- 
+
   .header-btn {
     display: block;
     border-radius: 5px;
@@ -149,12 +148,11 @@
     border: none;
     transition: background-color var(--transition-dur-and-func);
     &:hover,
-    &:focus{
-    background-color: var(--accent-color);
+    &:focus {
+      background-color: var(--accent-color);
     }
-
   }
- 
+
   .menu-open-btn {
     display: none;
   }
