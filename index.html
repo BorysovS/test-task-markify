@@ -1,13 +1,296 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<!DOCTYPE html>
+
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Markify</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@700&family=Open+Sans:wght@300..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+<header class="header">
+  <div class="container header-container">
+    <a href="./index.html" class="logo"><img src="./img/header/logo.svg" alt="logo" class="logo-img" /></a>
+    <nav class="navigation">
+      <ul class="navigation-list">
+        <li><a href="" class="navigation-link">Affiliates </a></li>
+        <li><a href="" class="navigation-link">Advertisers</a></li>
+        <li><a href="" class="navigation-link">Events</a></li>
+        <li><a href="" class="navigation-link"> Blog</a></li>
+      </ul>
+    </nav>
+    <button type="button" class="header-btn">sign Up</button>
+    <button type="button" class="menu-open-btn" data-modal-open>
+      <svg class="menu-open-icon" width="28" height="20">
+        <use href="./img/icons.svg#icon-open-menu"></use>
+      </svg>
+    </button>
+  </div>
+  <div class="mobile-menu is-hidden" data-modal>
+    <div class="container">
+      <div class="mobile-wrap">
+        <a href="./index.html" class="mobile-logo"><img src="./img/header/logo.svg" alt="logo"
+            class="mobile-logo-img" /></a>
+        <button class="mobile-close-btn" data-modal-close>
+          <svg class="mobile-close-icon" width="24" height="24">
+            <use href="./img/icons.svg#icon-cross"></use>
+          </svg>
+        </button>
+      </div>
+
+      <ul class="mobile-nav-list">
+        <li><a href="" class="mobile-link">Affiliates </a></li>
+        <li><a href="" class="mobile-link">Advertisers</a></li>
+        <li><a href="" class="mobile-link">Events</a></li>
+        <li><a href="" class="mobile-link">Blog</a></li>
+      </ul>
+      <button type="button" class="mobile-send-btn">sign Up</button>
+    </div>
+  </div>
+</header>
+  <main>
+    <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-container">
+      <div class="hero-image-wrapper"></div>
+      <div class="hero-text-wrapper">
+        <h1 class="hero-title">Lorem ipsum dolor sit amet consectetur. Mi cras <span class="hero-title-text-wrapper">non non quis.</span></h1>
+        <p class="hero-text">Lorem ipsum dolor sit amet consectetur. Faucibus nunc et mattis at feugiat sagittis volutpat. At netus diam ipsum cras
+        turpis imperdiet diam vel consequat. Ultrices in faucibus sodales sed sed. Enim aenean dignissim sed a non mollis. Sed
+        ut arcu enim ullamcorper.</p>
+      </div>
+    </div>
+    <div class="marquee-box">
+      <div class="marquee-line">
+        <p class="marquee-text">We buy trAffic</p>
+        <p class="marquee-text-opacity">We buy trAffic</p>
+        <p class="marquee-text">We buy trAffic</p>
+        <p class="marquee-text-opacity">We buy trAffic</p>
+        <p class="marquee-text">We buy trAffic</p>
+        <p class="marquee-text-opacity">We buy trAffic</p>
+        <p class="marquee-text">We buy trAffic</p>
+        <p class="marquee-text-opacity">We buy trAffic</p>
+      </div>
+      <div class="marquee-line-second">
+        <p class="marquee-text">We buy trAffic</p>
+        <p class="marquee-text-opacity">We buy trAffic</p>
+        <p class="marquee-text">We buy trAffic</p>
+        <p class="marquee-text-opacity">We buy trAffic</p>
+        <p class="marquee-text">We buy trAffic</p>
+        <p class="marquee-text-opacity">We buy trAffic</p>
+        <p class="marquee-text">We buy trAffic</p>
+        <p class="marquee-text-opacity">We buy trAffic</p>
+      </div>
+    </div>
+  </section>
+    <!-- PARTNER -->
+    <section class="partners">
+      <div class="container partners-container">
+        <div class="partners-text-wrap">
+          <h2 class="partners-title">
+            our <span class="partners-title-part">exclusive partners</span>
+          </h2>
+          <ul class="partners-list">
+            <li class="partners-item">
+              <a href="" class="partners-link">
+                <picture>
+                  <source media="(min-width: 1200px)" srcset="
+                            ./img/partners/sync-deck-1x-min.png 1x,
+                            ./img/partners/sync-deck-2x-min.png 2x
+                          " type="image/png" />
+    
+                  <source media="(max-width: 1199px)" srcset="
+                            ./img/partners/sync-mob-1x-min.png 1x,
+                            ./img/partners/sync-mob-2x-min.png 2x
+                          " type="image/png" />
+                  <img src="./img/partners/sync-deck-1x-min.png" alt="sync" width="130" height="56" loading="lazy" />
+                </picture>
+              </a>
+            </li>
+            <li class="partners-item">
+              <a href="" class="partners-link">
+                <picture class="partners-img">
+                  <source media="(min-width: 1200px)" srcset="
+                            ./img/partners/infl-desc-1x-min.png 1x,
+                            ./img/partners/infl-desc-1x-min.png 2x
+                          " type="image/png" />
+    
+                  <source media="(max-width: 1199px)" srcset="
+                            ./img/partners/infl-mob-1x-min.png 1x,
+                            ./img/partners/infl-mob-2x-min.png 2x
+                          " type="image/png" />
+                  <img src="./img/partners/infl-desc-1x-min.png" alt="influence" width="194" height="56" loading="lazy" />
+                </picture>
+              </a>
+            </li>
+            <li class="partners-item">
+              <a href="" class="partners-link">
+                <picture>
+                  <source media="(min-width: 1200px)" srcset="
+                            ./img/partners/coding-desc-1x-min.png 1x,
+                            ./img/partners/coding-desc-2x-min.png 2x
+                          " type="image/png" />
+    
+                  <source media="(max-width: 1199px)" srcset="
+                            ./img/partners/coding-mob-1x-min.png 1x,
+                            ./img/partners/coding-mob-2x-min.png 2x
+                          " type="image/png" />
+                  <img src="./img/partners/coding-desc-1x-min.png" alt="coding" width="185" height="56" loading="lazy" />
+                </picture>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <picture>
+          <source media="(min-width: 1200px)"
+            srcset="./img/partners/img-desc-1x-min.png 1x, ./img/partners/img-desc-2x-min.png 2x" type="image/png" />
+    
+          <source media="(max-width: 1199px)"
+            srcset="./img/partners/img-mob-1x-min.png 1x, ./img/partners/img-mob-1x-min.png 2x" type="image/png" />
+          <img src="./img/partners/img-desc-1x-min.png" alt="partners" width="679" height="461" loading="lazy" />
+        </picture>
+      </div>
+    </section>
+    <!-- ABOUT -->
+    <section class="about">
+      <div class="container">
+        <h2 class="about-title">About us</h2>
+        <ul class="about-list">
+          <li class="about-item">
+            <h3 class="about-subtitle">Lorem ipsum dolor sit amet consectetur</h3>
+            <p class="about-text">
+              Lorem ipsum dolor sit amet consectetur. Vel duis nibh sodales in gravida dolor in.
+              Elementum netus rhoncus sagittis nunc mi non egestas est. Aliquam maecenas in sed
+              vestibulum neque feugiat pulvinar. Volutpat auctor a in sem vulputate aliquam tempor
+              sit. Nulla urna felis penatibus ut cras sit.
+            </p>
+          </li>
+          <li class="about-item">
+            <h3 class="about-subtitle">Lorem ipsum dolor sit amet consectetur</h3>
+            <p class="about-text">
+              Lorem ipsum dolor sit amet consectetur. Vel duis nibh sodales in gravida dolor in.
+              Elementum netus rhoncus sagittis nunc mi non egestas est. Aliquam maecenas in sed
+              vestibulum neque feugiat pulvinar. Volutpat auctor a in sem vulputate aliquam tempor
+              sit. Nulla urna felis penatibus ut cras sit.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- SERVICES -->
+    <section class="services">
+      <div class="container services-container">
+        <div class="services-wrapper">
+          <h2 class="services-title">Services</h2>
+          <div class="services-block-wrap">
+            <div class="services-item-first">
+              <h3 class="services-subtitle first-services-subtitle">Lorem ipsum</h3>
+    
+              <ul class="services-test-list">
+                <li><a href="" class="services-text">Lorem</a></li>
+                <li><a href="" class="services-text">Lorem</a></li>
+                <li><a href="" class="services-text">Lorem</a></li>
+                <li><a href="" class="services-text">Lorem</a></li>
+              </ul>
+    
+    
+            </div>
+            <ul class="services-list">
+              <li class="services-item">
+                <h3 class="services-subtitle">Lorem</h3>
+                <ul class="services-test-list services-test-row">
+                  <li><a href="" class="services-text">Lorem</a></li>
+                  <li><a href="" class="services-text">Lorem</a></li>
+                </ul>
+              </li>
+              <li class="services-item">
+                <h3 class="services-subtitle">Lorem</h3>
+                <ul class="services-test-list services-test-row">
+                  <li><a href="" class="services-text">Lorem</a></li>
+                  <li><a href="" class="services-text">Lorem</a></li>
+                </ul>
+    
+              </li>
+            </ul>
+          </div>
+        </div>
+        <picture class="services-img">
+          <source media="(min-width: 1200px)"
+            srcset="./img/services/services-desc-1x-min.png 1x, ./img/services/services-desc-2x-min.png 2x"
+            type="image/png" />
+    
+          <source media="(max-width: 1199px)"
+            srcset="./img/services/services-mob-1x-min.png 1x, ./img/services/services-mob-2x-min.png 2x"
+            type="image/png" />
+          <img src="./img/services/services-desc-1x-min.png" alt="cache" width="679" height="461" loading="lazy" />
+        </picture>
+      </div>
+    </section>
+    <!-- agency -->
+    <section class="agency">
+      <div class="container">
+        <div class="agency-container">
+          <h2 class="agency-title">
+            Choose <span class="agency-part">excellence,</span> choose
+            <span class="agency-desc">our agency.</span>
+          </h2>
+          <p class="agency-text">Lorem ipsum dolor sit amet consectetur.</p>
+          <button type="button" class="agency-button">sign Up</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <a href="./index.html" class="logo-footer"><img src="./img/header/logo.svg" alt="logo"
+          class="logo-footer-img" /></a>
+      <ul class="footer-nav-list">
+        <li><a href="" class="footer-nav-link">Affiliates</a></li>
+        <li><a href="" class="footer-nav-link">Advertisers</a></li>
+        <li><a href="" class="footer-nav-link">Events</a></li>
+        <li><a href="" class="footer-nav-link">Blog</a></li>
+        <li><a href="" class="footer-nav-link">Terms of Use</a></li>
+      </ul>
+      <ul class="footer-soc-list">
+        <li class="footer-soc-item">
+          <a href="" class="footer-soc-link">
+            <svg class="footer-soc-icon" width="11" height="24">
+              <use href="./img/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-soc-item">
+          <a href="" class="footer-soc-link footer-soc-linkedin">
+            <svg class="footer-soc-icon" width="26" height="26">
+              <use href="./img/icons.svg#icon-link"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-soc-item">
+          <a href="" class="footer-soc-link">
+            <svg class="footer-soc-icon" width="22" height="22">
+              <use href="./img/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <address class="address">
+        <p class="address-text">Contact us</p>
+        <a href="mailto:support@markify.com" class="address-link">support@markify.com</a>
+      </address>
+    </div>
+  </footer>
+  <script src="./js/modal.js"></script>
+</body>
+
 </html>

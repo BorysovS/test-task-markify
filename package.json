@@ -1,14 +1,27 @@
 {
   "name": "test-task-markify",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx postcss css/main.css --use autoprefixer -o css/style.prefixed.css && npx postcss css/style.prefixed.css --use cssnano -o css/main.min.css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BorysovS/test-task-markify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BorysovS/test-task-markify/issues"
+  },
+  "homepage": "https://github.com/BorysovS/test-task-markify#readme",
   "devDependencies": {
-    "vite": "^5.2.0"
+    "autoprefixer": "^10.4.19",
+    "cssnano": "^7.0.1",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.77.1"
   }
 }

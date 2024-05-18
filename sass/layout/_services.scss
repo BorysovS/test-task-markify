@@ -1,0 +1,140 @@
+.services {
+    padding: 40px 0;
+}
+
+.services-wrapper {
+    margin-bottom: 40px;
+
+}
+.services-title {
+    font-size: 24px;
+line-height: 1.4;
+text-transform: capitalize;
+text-align: center;
+margin-bottom: 40px;
+position: relative;
+&::before{
+    content: "";
+position: absolute;
+bottom: 3px;
+border-radius: 21px;
+width: 99px;
+height: 10px;
+background-color: var(--accent-color);
+z-index: -1;
+
+}
+}
+.services-block-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.services-item-first{
+width: 100%;
+min-height: 209px;
+border-radius: 10px;
+padding: 16px 24px;
+background-color: var(--secondary-bg-color);
+}
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.services-item {
+border-radius: 10px;
+padding: 16px 24px;
+width: calc((100% - 20px) / 2);
+
+background-color: var(--accent-color);
+}
+.services-subtitle {
+font-size: 18px;
+line-height: 1.4;
+text-transform: capitalize;
+color: #fff;
+margin-bottom: 16px;
+}
+.first-services-subtitle{
+    margin-bottom: 24px;
+}
+.services-test-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.services-text {
+    font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.4;
+text-transform: capitalize;
+text-align: center;
+color: #fff;
+}
+.services-img{
+max-width: 285px;
+display: block;
+margin: 0 auto;
+}
+@media only screen and (min-width: 1200px) {
+  .services {
+  padding: 75px 0;
+}
+.services-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.services-wrapper {
+margin-bottom: 0;
+}
+.services-title {
+font-size: 32px;
+text-align: left;
+&::before{
+width: 131px;
+bottom: 6px;
+}
+}
+.services-block-wrap{
+flex-direction: row;
+
+}
+.services-item-first{
+   width: 267px;
+min-height: 278px;
+padding: 24px;
+}
+.services-list {
+flex-direction: column;
+}
+.services-item {
+width: 267px;
+padding: 16px 24px 28px 24px;
+min-height: 127px;
+}
+
+.services-subtitle {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.services-test-list {
+    gap: 24px;
+}
+.services-test-row{
+flex-direction: row;
+gap: 28px;
+
+}
+.services-text {
+    font-size: 18px;
+}
+.services-img {
+max-width: 471px;
+margin: unset;
+}
+}

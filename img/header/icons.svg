@@ -1,0 +1,27 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <symbol id="icon-open-menu" viewBox="0 0 32 32">
+            <path
+                d="M4.799 8.001c0-0.424 0.169-0.831 0.469-1.131s0.707-0.469 1.131-0.469h19.2c0.424 0 0.831 0.169 1.131 0.469s0.469 0.707 0.469 1.131-0.169 0.831-0.469 1.131c-0.3 0.3-0.707 0.469-1.131 0.469h-19.2c-0.424 0-0.831-0.169-1.131-0.469s-0.469-0.707-0.469-1.131z">
+            </path>
+            <path
+                d="M4.799 16.001c0-0.424 0.169-0.831 0.469-1.131s0.707-0.469 1.131-0.469h19.2c0.424 0 0.831 0.169 1.131 0.469s0.469 0.707 0.469 1.131c0 0.424-0.169 0.831-0.469 1.131s-0.707 0.469-1.131 0.469h-19.2c-0.424 0-0.831-0.169-1.131-0.469s-0.469-0.707-0.469-1.131z">
+            </path>
+            <path
+                d="M4.799 24.001c0-0.424 0.169-0.831 0.469-1.131s0.707-0.469 1.131-0.469h19.2c0.424 0 0.831 0.169 1.131 0.469s0.469 0.707 0.469 1.131c0 0.424-0.169 0.831-0.469 1.131s-0.707 0.469-1.131 0.469h-19.2c-0.424 0-0.831-0.169-1.131-0.469s-0.469-0.707-0.469-1.131z">
+            </path>
+        </symbol>
+        <symbol id="icon-Vector" viewBox="0 0 32 32">
+            <path
+                d="M16 0.64c-8.483 0-15.36 6.877-15.36 15.36s6.877 15.36 15.36 15.36c8.483 0 15.36-6.877 15.36-15.36s-6.877-15.36-15.36-15.36zM19.638 11.254h-2.309c-0.274 0-0.578 0.36-0.578 0.838v1.667h2.888l-0.437 2.378h-2.451v7.138h-2.725v-7.138h-2.472v-2.378h2.472v-1.398c0-2.006 1.392-3.637 3.302-3.637h2.309v2.53z">
+            </path>
+        </symbol>
+        <symbol id="icon-cross" viewBox="0 0 32 32">
+            <path fill="none" stroke="#7f3a6a" style="stroke: var(--color1, #7f3a6a)" stroke-linejoin="bevel"
+                stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M4 28.667l24.667-24.667"></path>
+            <path fill="none" stroke="#7f3a6a" style="stroke: var(--color1, #7f3a6a)" stroke-linejoin="bevel"
+                stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M4 4l24.667 24.667"></path>
+        </symbol>
+    </defs>
+</svg>
