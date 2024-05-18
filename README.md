@@ -9,6 +9,7 @@ such as header, hero, partners, about, services, agency, and footer.
 - [Usage](#usage)
 - [Live Demo](#live-demo)
 - [Project Structure](#project-structure)
+- [Requirements](#requirements)
 - [License](#license)
 
 ## Installation
@@ -69,6 +70,25 @@ css/: Contains the main CSS files for styling the web page. img/: Contains image
 the website. js/: Contains JavaScript files for additional functionality. index.html: The main HTML
 file that structures the web page. README.md: This file, providing information about the project.
 .browserslistrc: Configuration file for specifying the browser versions supported by this project.
+
+## Requirements
+
+To continue working on the project and add cross-browser compatibility to the styles, the following is needed:
+
+Node.js (https://nodejs.org/) npm (usually comes with Node.js)
+
+Installing Dependencies If you are making changes to the styles or continuing to develop the
+project, you need to install dependencies and recompile the styles. Follow these steps:
+
+Open the terminal and navigate to the project directory. Run the following command to install all
+necessary dependencies: npm install
+
+Compiling Styles After making changes to the styles or adding new ones, you need to ensure their
+cross-browser compatibility. To do this, run the following command to compile the styles:
+
+npm run build:css
+
+This command will add the necessary autoprefixes to your styles for cross-browser compatibility.
 
 ## License
 
